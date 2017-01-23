@@ -20858,7 +20858,7 @@
 	<fval name="stickyness"><value>0</value></fval>
 	<fval name="successNode"><value contentType="reference">-3585530420119912769</value></fval>
 	<fval name="transparentProxy"><value>0</value></fval>
-	<fval name="url"><value>${env.EMPLOYEE_WS_URL}</value></fval>
+	<fval name="url"><value>${env.WS.EmployeeService.Url}</value></fval>
 	<fval name="useRootCerts"><value>1</value></fval>
 </entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="SaveToFileFilter" entityPK="-581505095405628395" parentPK="-278253117576441359">
@@ -21146,12 +21146,6 @@
 	<fval name="customMessage"><value></value></fval>
 	<fval name="messageTemplateFile"><value></value></fval>
 	<fval name="mimeType"><value contentType="reference">-1</value></fval>
-</entity>
-<entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="FilterCircuit" entityPK="7163707634063576231" parentPK="6035838852210317705">
-	<fval name="category"><value contentType="reference">4949296717983842825</value></fval>
-	<fval name="description"><value></value></fval>
-	<fval name="logMask"><value>3</value></fval>
-	<fval name="name"><value>JMS_Policy</value></fval>
 </entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="CircuitContainer" entityPK="6200866149874534431" parentPK="4631063989131535595">
 	<fval name="name"><value>GLOBAL</value></fval>
@@ -25331,7 +25325,7 @@
 	<fval name="routingMode"><value>direct</value></fval>
 	<fval name="rspChainIntermediary"><value contentType="reference">-1</value></fval>
 	<fval name="serviceName"><value></value></fval>
-	<fval name="specifiedURL"><value>${kps.slaws[service.name].url}</value></fval>
+	<fval name="specifiedURL"><value>${env.WS.EmployeeService.Url}</value></fval>
 	<fval name="validationCircuit"><value contentType="reference">-1</value></fval>
 	<fval name="validationMethod"><value>wsdlSchema</value></fval>
 	<fval name="webService"><value contentType="reference">
