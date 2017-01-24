@@ -21274,22 +21274,6 @@
 	<fval name="outputContentType"><value>text/plain</value></fval>
 	<fval name="successNode"><value contentType="reference">-1355724624027174590</value></fval>
 </entity>
-<entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="XmlComplexityFilter" entityPK="-8148506685653948296" parentPK="5907479272613185951">
-	<fval name="abortProcessingOnLogError"><value>0</value></fval>
-	<fval name="category"><value contentType="reference">-3797671756154844642</value></fval>
-	<fval name="failureNode"><value contentType="reference">5053879800615486507</value></fval>
-	<fval name="logFailure"><value>Failed XML message complexity filtering</value></fval>
-	<fval name="logFatal"><value>Error during XML message complexity filtering. Error: ${circuit.exception}</value></fval>
-	<fval name="logMask"><value>2</value></fval>
-	<fval name="logMaskType"><value>SERVICE</value></fval>
-	<fval name="logSuccess"><value>Passed XML message complexity filtering</value></fval>
-	<fval name="maxDepthDescendantNodes"><value>20</value></fval>
-	<fval name="maxNumAttributes"><value>10</value></fval>
-	<fval name="maxNumChildren"><value>100</value></fval>
-	<fval name="maxNumNodes"><value>1000</value></fval>
-	<fval name="name"><value>XML Complexity</value></fval>
-	<fval name="successNode"><value contentType="reference">-1</value></fval>
-</entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="CompareAttributeFilter" entityPK="-6137413958237310640" parentPK="5907479272613185951">
 	<fval name="abortProcessingOnLogError"><value>0</value></fval>
 	<fval name="category"><value contentType="reference">-831886221871881734</value></fval>
@@ -21301,7 +21285,7 @@
 	<fval name="logSuccess"><value>Filter passed</value></fval>
 	<fval name="matchingRule"><value>MATCH_ALL</value></fval>
 	<fval name="name"><value>Is Content-Type XML?</value></fval>
-	<fval name="successNode"><value contentType="reference">-8148506685653948296</value></fval>
+	<fval name="successNode"><value contentType="reference">-1355724624027174590</value></fval>
 </entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="AttributeCompare" entityPK="-4153506649645270264" parentPK="-6137413958237310640">
 	<fval name="attrName"><value>${content.type}</value></fval>
@@ -21343,19 +21327,6 @@
 	<fval name="logMaskType"><value>SERVICE</value></fval>
 	<fval name="logSuccess"><value>Successfully echoed back the message</value></fval>
 	<fval name="name"><value>Forbidden Request</value></fval>
-</entity>
-<entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="ChangeMessageFilter" entityPK="5053879800615486507" parentPK="5907479272613185951">
-	<fval name="abortProcessingOnLogError"><value>0</value></fval>
-	<fval name="body"><value>Invalid XML payload</value></fval>
-	<fval name="category"><value contentType="reference">-831886221871881734</value></fval>
-	<fval name="logFailure"><value>Failed in setting the message</value></fval>
-	<fval name="logFatal"><value>Error in setting the message. Error: ${circuit.exception}</value></fval>
-	<fval name="logMask"><value>2</value></fval>
-	<fval name="logMaskType"><value>SERVICE</value></fval>
-	<fval name="logSuccess"><value>Success in setting the message</value></fval>
-	<fval name="name"><value>XML Depth Error</value></fval>
-	<fval name="outputContentType"><value>text/plain</value></fval>
-	<fval name="successNode"><value contentType="reference">-1355724624027174590</value></fval>
 </entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="CompareAttributeFilter" entityPK="6199486651458401453" parentPK="5907479272613185951">
 	<fval name="abortProcessingOnLogError"><value>0</value></fval>
