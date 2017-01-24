@@ -1913,11 +1913,6 @@
 	<fval name="useSSL"><value>false</value></fval>
 	<fval name="username"><value>cassandra</value></fval>
 </entity>
-<entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="CassandraServer" entityPK="244618206434163176" parentPK="5314538029694769689">
-	<fval name="host"><value>${env.Cassandra.Host}</value></fval>
-	<fval name="name"><value>Local Cassandra server</value></fval>
-	<fval name="port"><value>${env.Cassandra.Port}</value></fval>
-</entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="CassandraServer" entityPK="8430521178094543241" parentPK="5314538029694769689">
 	<fval name="host"><value>${env.Cassandra.Url}</value></fval>
 	<fval name="name"><value>Cassandra Host</value></fval>
