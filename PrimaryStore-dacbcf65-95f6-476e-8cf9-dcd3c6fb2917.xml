@@ -20506,7 +20506,7 @@
 </entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="ChangeMessageFilter" entityPK="-9118104099066099371" parentPK="-1438926250480119648">
 	<fval name="abortProcessingOnLogError"><value>0</value></fval>
-	<fval name="body"><value>&lt;status&gt;ok&lt;/status&gt;</value></fval>
+	<fval name="body"><value>&lt;status&gt;ok.Ravee!&lt;/status&gt;</value></fval>
 	<fval name="category"><value contentType="reference">-831886221871881734</value></fval>
 	<fval name="logFailure"><value>Failed in setting the message</value></fval>
 	<fval name="logFatal"><value>Error in setting the message. Error: ${circuit.exception}</value></fval>
